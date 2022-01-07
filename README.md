@@ -1,4 +1,4 @@
-# CS240
+# SpellingCorrector
 ## what I have done so far
 - I think I moved the files over properly
 - unfortunately I am not so sure about the jars folder, there are two options and I dont know which one to pick
