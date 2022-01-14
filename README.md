@@ -2,7 +2,8 @@
 ## what I have done so far
 - I think I moved the files over properly
 - unfortunately I am not so sure about the jars folder, there are two options and I dont know which one to pick
-- 
+- Also not sure why passoff is refusing to be called anything but passoff.passoff
+  - ditto for spell
 ## Brief overview of the project
 - validate single words
 - Dictionary generated from large text file

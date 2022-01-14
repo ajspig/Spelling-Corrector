@@ -16,19 +16,20 @@ public class Main {
 		
 		String dictionaryFileName = args[0];
 		String inputWord = args[1];
-		
-		//
-        //Create an instance of your corrector here
-        //
-		ISpellCorrector corrector = null;
-		
+
+		ISpellCorrector corrector = new SpellCorrector(); // should it be SpellCorrector or ISpellCorrector?
 		corrector.useDictionary(dictionaryFileName);
+
 		String suggestion = corrector.suggestSimilarWord(inputWord);
 		if (suggestion == null) {
 		    suggestion = "No similar word found";
 		}
-		
+
 		System.out.println("Suggestion is: " + suggestion);
 	}
 
 }
+// difference between static and non-static classes:
+// static means it's a class thing, whereas
+//		 means it doesn't have access to instance variables and methods in the outer class
+
